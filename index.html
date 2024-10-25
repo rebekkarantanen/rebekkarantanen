@@ -31,29 +31,29 @@
 
     /* Sidebar styling */
     #sidebar {
-      background-color: #ffccd5; /* Light pink */
+      background-color: #ffccd5;
       width: 150px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center; /* Center items vertically */
+      justify-content: center;
       padding-top: 40px;
-      gap: 20px; /* Even spacing */
+      gap: 20px;
     }
 
     #sidebar button {
       background: none;
       border: none;
       color: #333;
-      font-size: 1.2em; /* Increased font size */
-      font-weight: 500; /* Medium weight for Poppins */
+      font-size: 1.2em;
+      font-weight: 500;
       padding: 15px 10px;
       text-align: center;
       cursor: pointer;
       transition: background 0.3s, transform 0.2s;
       border-radius: 8px;
       width: 80%;
-      font-family: 'Poppins', sans-serif; /* Use Poppins font */
+      font-family: 'Poppins', sans-serif;
     }
 
     #sidebar button:hover {
@@ -169,6 +169,7 @@
     <div id="sidebar">
       <button id="about-button" onclick="showSection('about')">About Me</button>
       <button id="cv-button" onclick="showSection('cv')">CV</button>
+      <button id="portfolio-button" onclick="showSection('portfolio')">My Portfolio</button>
     </div>
 
     <!-- Main content area -->
@@ -182,7 +183,7 @@
         <a id="linkedin" href="https://www.linkedin.com/in/rebekka-rantanen-166b211b2" target="_blank">
           <i class="fa fa-linkedin-square"></i>
         </a>
-        
+
         <!-- About Me Section -->
         <div id="about" class="content-section">
           <p>Hello! I'm Rebekka Rantanen, a fourth-year Student Pharmacist at Rosalind Franklin University. With over six years of experience in community pharmacy, I am passionate about advancing patient-centered care and hope to pursue a PGY-1 residency to deepen my expertise. My professional interests lie in psychiatry and ambulatory care, with a focus on individualized medication management that enhances patient outcomes.</p>
@@ -193,6 +194,19 @@
         <div id="cv" class="content-section">
           <p>Interested in learning more about my qualifications? View my CV below:</p>
           <a class="cv-link" href="https://drive.google.com/file/d/1LJ3hWIBiKqUNMxAKDceLKt_Z-tgI1I8P/view?usp=sharing" target="_blank">View CV</a>
+        </div>
+
+        <!-- My Portfolio Section -->
+        <div id="portfolio" class="content-section">
+          <p>Check out some of the cool things I have done so far in pharmacy school!</p>
+          <ul>
+            <li><a href="https://drive.google.com/file/d/1MDqf-dPtt_GDSw-j9TUYFq-djxre7bt9/view" target="_blank">APhA-ASP 2023 Innovative Programming Award Recipient: President's Choice</a></li>
+            <li><a href="https://drive.google.com/file/d/1IReVPH3Lzf8epLsf0oU2S3Rk5xjwG344/view?usp=sharing" target="_blank">APPE Block 1 (VA Inpatient Mental Health) DI Question: Which psychotherapeutic modality demonstrates the most optimal outcomes for ketamine therapy augmentation?</a></li>
+            <li><a href="https://drive.google.com/file/d/1lbts-Nny5MhyLYX96d25iERtukvQu_o2/view?usp=sharing" target="_blank">APPE Block 1 (VA Inpatient Mental Health) Journal Club: Efficacy and Safety of Xanomeline-Trospium chloride in Schizophrenia</a></li>
+            <li><a href="https://drive.google.com/file/d/1Hghl-OgPGTQuiNYU2TwmK8T7qJ_pjUNu/view?usp=sharing" target="_blank">APPE Block 2 (Community) Treatment Algorithm for Hospice Patients</a></li>
+            <li><a href="https://drive.google.com/file/d/1S1yBqImp96igY_hNOusQYzB_xsivyu1a/view?usp=sharing" target="_blank">P3 Seminar Presentation: Zuranolone for the Treatment of Postpartum Depression</a></li>
+            <li><a href="https://drive.google.com/file/d/1PIBpYeQKNkCP-bby-VvLvdOaiIAd7lMJ/view?usp=sharing" target="_blank">Summer Research 2022 Poster: “Synthesis and profiling of novel derivatives of SS4, a highly selective and potent small molecule inhibitor of STAT3 tyrosine phosphorylation that suppresses GBM tumorigenesis”</a></li>
+          </ul>
         </div>
       </div>
     </div>
